@@ -30,3 +30,4 @@ tasks.jar {
     // Ensure that the compiled Kotlin classes are included
     with(tasks.getByName("jar") as CopySpec)
 }
+
